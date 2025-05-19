@@ -23,7 +23,6 @@ public class Targa {
         return Objects.equals(numero, targa.numero);
     }
 
-
     @Override
     public int hashCode() {
         return Objects.hash(numero);
